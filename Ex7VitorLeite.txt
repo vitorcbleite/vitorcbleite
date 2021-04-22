@@ -1,0 +1,8 @@
+var x = prompt("Informe o valor inicial.");
+var y = prompt("Informe o valor final do contador.");
+var inc = prompt("Informe o valor de incremento.");
+
+console.log("Valor inicial: " + x + "\nValor contador: " + y + "\nValor do incremento: " + inc);
+for (var i = Number(x); i < Number(y); i += Number(inc)) {
+    console.log("O Math.log de " + i + " é " + Math.log(i));
+}

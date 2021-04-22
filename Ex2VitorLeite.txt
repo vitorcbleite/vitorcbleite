@@ -1,0 +1,5 @@
+	var aluno = "Vítor Leite";
+	var notas = '7,8,6,9,8,9,6,10';
+	console.log("Aluno: "+aluno+"\nNotas: "+notas);
+	var somada = aluno+notas;
+	console.log("\nString somada: "+somada);

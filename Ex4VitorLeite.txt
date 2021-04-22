@@ -1,0 +1,5 @@
+var x = Number(prompt("Insira o valor de X: "));
+var y = Number(prompt("Insira o valor de Y: "));
+
+var soma = x + y;
+console.log("Resultado da soma: "+soma);

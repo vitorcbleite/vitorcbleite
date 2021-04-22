@@ -1,0 +1,8 @@
+	var aluno = "Vítor Leite";
+	var notas = [7,8,6,9,8,9,6,10];
+	var media = 0;
+	for(i = 0; i < notas.length; i++){
+		media += notas[i];
+	}
+	media = (media)/notas.length;
+	console.log("Aluno: "+aluno+"\nMédia: "+media+"\nQuantidade de notas: "+notas.length);

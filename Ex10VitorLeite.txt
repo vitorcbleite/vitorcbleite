@@ -1,0 +1,8 @@
+const calculaFatorial = () => {
+    const fatorial = n => {
+        return(n == 0 ? (1) : (n * fatorial(n-1)))
+    }
+    var n = prompt("Digite o fatorial que deseja calcular:");
+    alert(n + "! = " + fatorial(n));
+}
+

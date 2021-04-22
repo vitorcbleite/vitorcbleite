@@ -1,0 +1,8 @@
+var x = Number(prompt("Insira o valor de X: "));
+var y = Number(prompt("Insira o valor de Y: "));
+
+var soma = x + y;
+console.log("Resultado da soma: "+soma);
+if(soma>10){
+	console.log("Resultado é maior que 10");
+} else {console.log("Resultado é menor que 10")}

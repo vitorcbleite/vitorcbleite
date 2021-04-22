@@ -1,0 +1,15 @@
+const convidados = [ 
+    {nome: 'Felipe', idade: 29, genero: 'masculino'}, 
+    {nome: 'Allana', idade: 22, genero: 'feminino'}, 
+    {nome: 'Thiago', idade: 33, genero: 'masculino'}, 
+    {nome: 'Carlos', idade: 16, genero: 'masculino'}, 
+    {nome: 'Aline', idade: 15, genero: 'feminino'} 
+];
+
+const maiorIdade = convidados.reduce((pessoasMaiores,pessoas)=>{
+        if(pessoas.idade>18){
+            pessoasMaiores.push(pessoas)
+        }
+        return pessoasMaiores
+},[]).sort((a,b)=>{return a.nome > b.nome ? 1 : -1})
+console.log(maiorIdade)

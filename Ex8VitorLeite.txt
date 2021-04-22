@@ -1,0 +1,52 @@
+var somar = function(v1, v2){
+	return v1 + v2
+}
+
+var subtrair = function(v1, v2){
+	return v1-v2;
+}
+
+var mult = function(v1, v2){
+	return v1*v2;
+}
+
+var divide = function(v1, v2){
+	return v1/v2;
+}
+
+
+
+var i = 10;
+do{
+	var x = prompt("Insira o valor de X: ");
+	var y = prompt("Insira o valor de Y: ");
+	var operacao = prompt("Insira a operação entre +, -, *, /: ");
+	var resultado = 0;
+
+	switch(operacao){
+		case '+':
+			resultado = somar(Number(x),Number(y));
+			break;
+		case '-':
+			resultado = subtrair(Number(x),Number(y));
+			break;
+		case '*':
+			resultado = mult(Number(x),Number(y));
+			break;
+		case '/':
+			resultado = divide(Number(x),Number(y));
+			break;
+		default:
+			alert("Operação inválida.");
+			break;
+	}
+	console.log("Resultado: "+resultado);
+	if(resultado>10){
+		console.log("Resultado é maior que 10");
+	} else {
+		console.log("Resultado é menor que 10");	
+		if(x.toLowerCase() == 'n' || y.toLowerCase() == 'n'){i=0}
+	}
+} while (i > 0)
+console.log("\nCalculadora finalizada");
+

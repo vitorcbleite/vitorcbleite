@@ -1,0 +1,5 @@
+var x = 15;
+var y = 12;
+
+var soma = x + y;
+console.log("Resultado da soma: "+soma);
