@@ -4,7 +4,6 @@
 - 💞️ I’m looking to collaborate on Applications using both front and back end java APIs to grow up.
 - 📫 How to reach me ... vitorcbleite@gmail.com 
 https://www.linkedin.com/in/vítorleite/
-stil under construction
 
 <!---
 vitorcbleite/vitorcbleite is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
