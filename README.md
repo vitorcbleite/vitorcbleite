@@ -3,7 +3,7 @@
 - 🌱 I’m currently working Java 8+ and SpringBoot on modern front frameworks like Angular, React, Node, etc, with varied Databases on agile environment and cloud mainly aws but I'm trying to use the rest as well personally. 
 - 💞️ I’m looking to collaborate on Applications using both front and back end java APIs to grow up.
 - 📫 How to reach me ... vitorcbleite@gmail.com 
-https://www.linkedin.com/in/v%C3%ADtorleite/
+- https://www.linkedin.com/in/v%C3%ADtorleite/
 
 <!---
 vitorcbleite/vitorcbleite is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
